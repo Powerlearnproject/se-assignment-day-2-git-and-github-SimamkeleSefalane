@@ -2,9 +2,23 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18389319&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+- Repository: A database that stores all the project's files.
+- Commit: A snapshot of the current state of the projec. where a set oof changes are saved together with a descriptive message explaining what was modified.
+- Branch: A development line that is separate from the main project, it allows developers to work on features separately and doesn't affect the main project.
+- Merging: Combining changes from other branches back into the main branch.
+- Conflict resolution: The process of manually resolvving issues when changes made in different branches overlap.
+- Working copy: A local copy of the project files that a developer actively works on.
+- Commit messsage: A short description with an explaination about changes made in a commit.
 
+- Git is a popular tool because of its branching capabilities, unlike centralized version control systems, Git branches are cheap aand easy to merge.
+- By keeping a detailed record of all changes made in a project, including who made them, when they were made helps in creating an audit trail that allows for easy rollback to previous versions if necessary.
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
-
+- In the upper-right corner of the page, select and click "new repository"
+- Name your repository
+- Add a description of your repository (optional)
+- Choose repository visibility
+- Select initialize this repository with a README
+- Click create repository
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
